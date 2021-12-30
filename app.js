@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
             var card = document.createElement('img');
             card.setAttribute('src', 'images/blank.png');
             card.setAttribute('data-id', i);
-            //card.addEventListener('click', flipcard)
+            card.addEventListener('click', flipcard);
             grid.appendChild(card);
         };
     };
