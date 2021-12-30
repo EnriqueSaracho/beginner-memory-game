@@ -64,4 +64,14 @@ document.addEventListener('DOMContentLoaded', () => {
             grid.appendChild(card);
         };
     };
+
+    //Check for matches
+
+
+    //Flip your card
+    function flipCard() {
+        var cardId = this.getAttribute('data-id')
+    }
+
+    createBoard()
 })
