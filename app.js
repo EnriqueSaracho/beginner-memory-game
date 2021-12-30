@@ -36,11 +36,11 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             name: 'milkshake',
-            img: 'images/ice-cream.png'
+            img: 'images/milk-shake.png'
         },
         {
             name: 'milkshake',
-            img: 'images/ice-cream.png'
+            img: 'images/milkshake.png'
         },
         {
             name: 'pizza',
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
             var card = document.createElement('img');
             card.setAttribute('src', 'images/blank.png');
             card.setAttribute('data-id', i);
-            card.addEventListener('click', flipcard);
+            card.addEventListener('click', flipCard);
             grid.appendChild(card);
         };
     };
@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
         this.setAttribute('src', cardArray[cardId].img);
         if (cardsChosen.length === 2) {
             setTimeout(checkForMatch, 500);
-        }
+        };
     };
 
     createBoard();
