@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             name: 'milkshake',
-            img: 'images/milk-shake.png'
+            img: 'images/milkshake.png'
         },
         {
             name: 'milkshake',
